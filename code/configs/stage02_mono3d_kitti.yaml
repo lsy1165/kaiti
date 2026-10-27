@@ -1,0 +1,18 @@
+dataset:
+  # Put KITTI object detection data under this directory.
+  root: code/data/stage02_mono3d_detection/kitti
+  split: training
+
+output:
+  dir: code/outputs/stage02_mono3d_detection
+
+labels:
+  coordinate: kitti_camera
+  classes: [Car, Pedestrian, Cyclist]
+
+bev:
+  x_range: [0.0, 70.4]
+  y_range: [-40.0, 40.0]
+  z_range: [-3.0, 1.0]
+  point_size: 0.2
+  dpi: 220

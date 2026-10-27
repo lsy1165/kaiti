@@ -1,0 +1,21 @@
+{
+  "pair_id": "000023_image_noise",
+  "condition_name": "image_noise",
+  "condition_title": "图像噪声",
+  "condition_description": "在图像中加入随机噪声，模拟传感器成像质量下降。",
+  "clean": {
+    "sample_id": "000023",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\clean\\000023.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\clean\\000023.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\clean\\000023.pkl"
+  },
+  "complex": {
+    "sample_id": "000023_image_noise",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\complex\\000023_image_noise.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\complex\\000023_image_noise.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\complex\\000023_image_noise.pkl"
+  },
+  "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000023_image_noise_clean_vs_complex.png",
+  "source_point_count": 120412,
+  "output_point_count": 120412
+}

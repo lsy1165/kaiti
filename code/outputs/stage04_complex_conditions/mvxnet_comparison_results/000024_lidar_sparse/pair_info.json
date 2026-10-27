@@ -1,0 +1,21 @@
+{
+  "pair_id": "000024_lidar_sparse",
+  "condition_name": "lidar_sparse",
+  "condition_title": "点云稀疏",
+  "condition_description": "随机删除部分点云，模拟激光雷达点云缺失或远距离稀疏。",
+  "clean": {
+    "sample_id": "000024",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\clean\\000024.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\clean\\000024.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\clean\\000024.pkl"
+  },
+  "complex": {
+    "sample_id": "000024_lidar_sparse",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\complex\\000024_lidar_sparse.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\complex\\000024_lidar_sparse.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\complex\\000024_lidar_sparse.pkl"
+  },
+  "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000024_lidar_sparse_clean_vs_complex.png",
+  "source_point_count": 126730,
+  "output_point_count": 57147
+}

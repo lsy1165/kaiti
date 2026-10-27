@@ -1,0 +1,17 @@
+dataset:
+  root: code/data/stage02_mono3d_detection/kitti_synthetic
+  split: training
+
+output:
+  dir: code/outputs/stage02_mono3d_detection/synthetic
+
+labels:
+  coordinate: lidar
+  classes: [Car, Pedestrian, Cyclist]
+
+bev:
+  x_range: [0.0, 70.4]
+  y_range: [-40.0, 40.0]
+  z_range: [-3.0, 1.0]
+  point_size: 0.8
+  dpi: 220

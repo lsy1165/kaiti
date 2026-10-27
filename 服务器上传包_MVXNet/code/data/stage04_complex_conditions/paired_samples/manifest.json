@@ -1,0 +1,100 @@
+{
+  "policy": {
+    "description": "多个原始样例分别构造复杂工况，每个原始样例只对应一种复杂工况。",
+    "one_base_sample_to_one_condition": true,
+    "do_not_expand_one_sample_to_many_conditions": true,
+    "recommended_min_base_samples": 5
+  },
+  "samples": [
+    {
+      "pair_id": "000008_low_light",
+      "base_stem": "000008",
+      "condition_name": "low_light",
+      "condition_title": "弱光",
+      "condition_description": "降低图像亮度和对比度，模拟夜间或光照不足场景。",
+      "clean_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\clean",
+      "complex_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\complex",
+      "image": "code\\data\\stage04_complex_conditions\\condition_samples\\000008_low_light.png",
+      "point_cloud": "code\\data\\stage04_complex_conditions\\condition_samples\\000008_low_light.bin",
+      "info": "code\\data\\stage04_complex_conditions\\condition_samples\\000008_low_light.pkl",
+      "source_point_count": 17238,
+      "output_point_count": 17238,
+      "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000008_low_light_clean_vs_complex.png"
+    },
+    {
+      "pair_id": "000021_fog",
+      "base_stem": "000021",
+      "condition_name": "fog",
+      "condition_title": "雾天",
+      "condition_description": "降低图像清晰度并叠加雾化效果，模拟能见度下降场景。",
+      "clean_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\clean",
+      "complex_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\complex",
+      "image": "code\\data\\stage04_complex_conditions\\condition_samples\\000021_fog.png",
+      "point_cloud": "code\\data\\stage04_complex_conditions\\condition_samples\\000021_fog.bin",
+      "info": "code\\data\\stage04_complex_conditions\\condition_samples\\000021_fog.pkl",
+      "source_point_count": 125260,
+      "output_point_count": 125260,
+      "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000021_fog_clean_vs_complex.png"
+    },
+    {
+      "pair_id": "000022_motion_blur",
+      "base_stem": "000022",
+      "condition_name": "motion_blur",
+      "condition_title": "运动模糊",
+      "condition_description": "对图像施加水平运动模糊，模拟车辆运动或相机抖动场景。",
+      "clean_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\clean",
+      "complex_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\complex",
+      "image": "code\\data\\stage04_complex_conditions\\condition_samples\\000022_motion_blur.png",
+      "point_cloud": "code\\data\\stage04_complex_conditions\\condition_samples\\000022_motion_blur.bin",
+      "info": "code\\data\\stage04_complex_conditions\\condition_samples\\000022_motion_blur.pkl",
+      "source_point_count": 123219,
+      "output_point_count": 123219,
+      "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000022_motion_blur_clean_vs_complex.png"
+    },
+    {
+      "pair_id": "000023_image_noise",
+      "base_stem": "000023",
+      "condition_name": "image_noise",
+      "condition_title": "图像噪声",
+      "condition_description": "在图像中加入随机噪声，模拟传感器成像质量下降。",
+      "clean_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\clean",
+      "complex_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\complex",
+      "image": "code\\data\\stage04_complex_conditions\\condition_samples\\000023_image_noise.png",
+      "point_cloud": "code\\data\\stage04_complex_conditions\\condition_samples\\000023_image_noise.bin",
+      "info": "code\\data\\stage04_complex_conditions\\condition_samples\\000023_image_noise.pkl",
+      "source_point_count": 120412,
+      "output_point_count": 120412,
+      "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000023_image_noise_clean_vs_complex.png"
+    },
+    {
+      "pair_id": "000024_lidar_sparse",
+      "base_stem": "000024",
+      "condition_name": "lidar_sparse",
+      "condition_title": "点云稀疏",
+      "condition_description": "随机删除部分点云，模拟激光雷达点云缺失或远距离稀疏。",
+      "clean_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\clean",
+      "complex_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\complex",
+      "image": "code\\data\\stage04_complex_conditions\\condition_samples\\000024_lidar_sparse.png",
+      "point_cloud": "code\\data\\stage04_complex_conditions\\condition_samples\\000024_lidar_sparse.bin",
+      "info": "code\\data\\stage04_complex_conditions\\condition_samples\\000024_lidar_sparse.pkl",
+      "source_point_count": 126730,
+      "output_point_count": 57147,
+      "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000024_lidar_sparse_clean_vs_complex.png"
+    },
+    {
+      "pair_id": "000025_lidar_jitter",
+      "base_stem": "000025",
+      "condition_name": "lidar_jitter",
+      "condition_title": "点云扰动",
+      "condition_description": "对点云坐标加入小幅随机扰动，模拟测距噪声。",
+      "clean_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\clean",
+      "complex_dir": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\complex",
+      "image": "code\\data\\stage04_complex_conditions\\condition_samples\\000025_lidar_jitter.png",
+      "point_cloud": "code\\data\\stage04_complex_conditions\\condition_samples\\000025_lidar_jitter.bin",
+      "info": "code\\data\\stage04_complex_conditions\\condition_samples\\000025_lidar_jitter.pkl",
+      "source_point_count": 115780,
+      "output_point_count": 115780,
+      "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000025_lidar_jitter_clean_vs_complex.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+input:
+  source: code/data/stage01_2d_detection/input_images
+
+output:
+  dir: code/outputs/stage01_2d_detection
+
+runtime:
+  ultralytics_config_dir: code/.cache/ultralytics
+
+model:
+  # Use a local .pt file here if the machine cannot download weights.
+  weights: code/models/yolov8n.pt
+  confidence_threshold: 0.25
+  iou_threshold: 0.45
+  device: cpu
+
+save:
+  images: true
+  json: true

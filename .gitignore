@@ -1,0 +1,29 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local secrets; server_config.env contains public runtime settings.
+.env
+.env.*
+!.env.example
+!.env.template
+.aws/
+.ssh/
+*.pem
+*.key
+*.pfx
+
+# Operating-system and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.swp
+*.swo

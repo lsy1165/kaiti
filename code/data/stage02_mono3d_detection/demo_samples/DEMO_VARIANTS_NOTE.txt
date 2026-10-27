@@ -1,0 +1,1 @@
+These demo point clouds are generated from 000008.bin for deployment and batch-output checks only. They are not independent KITTI scenes and should not be used as experiment data.

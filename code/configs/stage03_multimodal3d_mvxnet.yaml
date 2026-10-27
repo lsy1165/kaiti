@@ -1,0 +1,23 @@
+stage:
+  name: stage03_multimodal3d_detection
+  task: image_lidar_multimodal_3d_detection
+  model: MVX-Net
+  framework: MMDetection3D
+
+demo_sample:
+  sample_id: "000008"
+  image: code/data/stage03_multimodal3d_detection/demo_samples/000008.png
+  point_cloud: code/data/stage03_multimodal3d_detection/demo_samples/000008.bin
+  info: code/data/stage03_multimodal3d_detection/demo_samples/000008.pkl
+
+output:
+  dir: code/outputs/stage03_multimodal3d_detection
+
+model_reference:
+  config_family: configs/mvxnet
+  checkpoint_dir: code/models/mmdetection3d
+
+notes:
+  - 当前阶段目标是复现图像和激光雷达融合的三维目标检测基础系统。
+  - 本配置先用于检查 demo 样例数据是否完整对应。
+  - 正式服务器推理脚本在下一步准备。

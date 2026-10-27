@@ -1,0 +1,21 @@
+{
+  "pair_id": "000022_motion_blur",
+  "condition_name": "motion_blur",
+  "condition_title": "运动模糊",
+  "condition_description": "对图像施加水平运动模糊，模拟车辆运动或相机抖动场景。",
+  "clean": {
+    "sample_id": "000022",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\clean\\000022.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\clean\\000022.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\clean\\000022.pkl"
+  },
+  "complex": {
+    "sample_id": "000022_motion_blur",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\complex\\000022_motion_blur.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\complex\\000022_motion_blur.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\complex\\000022_motion_blur.pkl"
+  },
+  "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000022_motion_blur_clean_vs_complex.png",
+  "source_point_count": 123219,
+  "output_point_count": 123219
+}

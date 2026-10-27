@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "image": "code\\data\\stage01_2d_detection\\input_images\\bus.jpg",
+      "detections": [
+        {
+          "class_id": 5,
+          "class_name": "bus",
+          "confidence": 0.873449,
+          "bbox_xyxy": [
+            22.871,
+            231.277,
+            805.003,
+            756.84
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.865691,
+          "bbox_xyxy": [
+            48.55,
+            398.552,
+            245.346,
+            902.703
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.852835,
+          "bbox_xyxy": [
+            669.473,
+            392.186,
+            809.72,
+            877.035
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.825225,
+          "bbox_xyxy": [
+            221.517,
+            405.799,
+            344.971,
+            857.537
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.261113,
+          "bbox_xyxy": [
+            0.0,
+            550.525,
+            63.007,
+            873.443
+          ]
+        },
+        {
+          "class_id": 11,
+          "class_name": "stop sign",
+          "confidence": 0.255069,
+          "bbox_xyxy": [
+            0.058,
+            254.459,
+            32.557,
+            324.874
+          ]
+        }
+      ]
+    }
+  ]
+}

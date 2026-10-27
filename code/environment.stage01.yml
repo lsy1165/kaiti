@@ -1,0 +1,12 @@
+name: kaiti-stage01
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pyyaml
+  - pip:
+      - ultralytics>=8.0.0
+      - opencv-python>=4.8.0

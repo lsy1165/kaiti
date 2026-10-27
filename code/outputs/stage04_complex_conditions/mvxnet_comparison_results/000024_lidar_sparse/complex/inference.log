@@ -1,0 +1,12 @@
+/root/服务器上传包_MVXNet/external/mmdetection3d/mmdet3d/models/dense_heads/anchor3d_head.py:94: UserWarning: dir_offset and dir_limit_offset will be depressed and be incorporated into box coder in the future
+  warnings.warn(
+Loads checkpoint by local backend from path: /root/服务器上传包_MVXNet/code/models/mmdetection3d/mvxnet_kitti.pth
+09/24 19:25:34 - mmengine - WARNING - Failed to search registry with scope "mmdet3d" in the "function" registry tree. As a workaround, the current "function" registry in "mmengine" is used to build instance. This may cause unexpected failure when running the built modules. Please check whether "mmdet3d" is a correct scope, or whether the registry is initialized.
+/root/miniconda3/lib/python3.10/site-packages/mmengine/visualization/visualizer.py:196: UserWarning: Failed to add <class 'mmengine.visualization.vis_backend.LocalVisBackend'>, please provide the `save_dir` argument.
+  warnings.warn(f'Failed to add {vis_backend.__class__}, '
+/root/服务器上传包_MVXNet/external/mmdetection3d/mmdet3d/models/layers/fusion_layers/coord_transform.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  torch.tensor(img_meta['pcd_rotation'], dtype=dtype, device=device)
+/root/miniconda3/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Inference ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   
+09/24 19:25:36 - mmengine - INFO - results have been saved at /root/服务器上传包_MVXNet/code/outputs/stage04_complex_conditions/mvxnet_comparison_results/000024_lidar_sparse/complex

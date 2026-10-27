@@ -1,0 +1,21 @@
+{
+  "pair_id": "000025_lidar_jitter",
+  "condition_name": "lidar_jitter",
+  "condition_title": "点云扰动",
+  "condition_description": "对点云坐标加入小幅随机扰动，模拟测距噪声。",
+  "clean": {
+    "sample_id": "000025",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\clean\\000025.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\clean\\000025.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\clean\\000025.pkl"
+  },
+  "complex": {
+    "sample_id": "000025_lidar_jitter",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\complex\\000025_lidar_jitter.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\complex\\000025_lidar_jitter.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\complex\\000025_lidar_jitter.pkl"
+  },
+  "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000025_lidar_jitter_clean_vs_complex.png",
+  "source_point_count": 115780,
+  "output_point_count": 115780
+}

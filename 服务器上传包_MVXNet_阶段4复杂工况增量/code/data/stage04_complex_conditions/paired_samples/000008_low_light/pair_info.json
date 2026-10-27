@@ -1,0 +1,21 @@
+{
+  "pair_id": "000008_low_light",
+  "condition_name": "low_light",
+  "condition_title": "弱光",
+  "condition_description": "降低图像亮度和对比度，模拟夜间或光照不足场景。",
+  "clean": {
+    "sample_id": "000008",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\clean\\000008.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\clean\\000008.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\clean\\000008.pkl"
+  },
+  "complex": {
+    "sample_id": "000008_low_light",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\complex\\000008_low_light.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\complex\\000008_low_light.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\complex\\000008_low_light.pkl"
+  },
+  "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000008_low_light_clean_vs_complex.png",
+  "source_point_count": 17238,
+  "output_point_count": 17238
+}

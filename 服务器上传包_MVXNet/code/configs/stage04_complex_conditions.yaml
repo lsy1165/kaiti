@@ -1,0 +1,86 @@
+stage:
+  name: stage04_complex_conditions
+  task: one_to_one_complex_condition_multimodal_3d_detection
+
+data:
+  base_dir: code/data/stage04_complex_conditions/base_samples
+  output_dir: code/data/stage04_complex_conditions/condition_samples
+  paired_dir: code/data/stage04_complex_conditions/paired_samples
+
+outputs:
+  report_dir: code/outputs/stage04_complex_conditions
+  preview_dir: code/outputs/stage04_complex_conditions/previews
+
+policy:
+  description: 多个原始样例分别构造复杂工况，每个原始样例只对应一种复杂工况。
+  one_base_sample_to_one_condition: true
+  do_not_expand_one_sample_to_many_conditions: true
+  recommended_min_base_samples: 5
+
+conditions:
+  - name: low_light
+    title: 弱光
+    description: 降低图像亮度和对比度，模拟夜间或光照不足场景。
+    image:
+      type: low_light
+      brightness: 0.35
+      contrast: 0.85
+    lidar:
+      type: none
+
+  - name: fog
+    title: 雾天
+    description: 降低图像清晰度并叠加雾化效果，模拟能见度下降场景。
+    image:
+      type: fog
+      density: 0.45
+      blur_radius: 1.2
+    lidar:
+      type: none
+
+  - name: motion_blur
+    title: 运动模糊
+    description: 对图像施加水平运动模糊，模拟车辆运动或相机抖动场景。
+    image:
+      type: motion_blur
+      kernel_size: 17
+    lidar:
+      type: none
+
+  - name: image_noise
+    title: 图像噪声
+    description: 在图像中加入随机噪声，模拟传感器成像质量下降。
+    image:
+      type: gaussian_noise
+      sigma: 18
+    lidar:
+      type: none
+
+  - name: lidar_sparse
+    title: 点云稀疏
+    description: 随机删除部分点云，模拟激光雷达点云缺失或远距离稀疏。
+    image:
+      type: none
+    lidar:
+      type: dropout
+      keep_ratio: 0.45
+
+  - name: lidar_jitter
+    title: 点云扰动
+    description: 对点云坐标加入小幅随机扰动，模拟测距噪声。
+    image:
+      type: none
+    lidar:
+      type: jitter
+      xyz_sigma: 0.08
+
+  - name: multimodal_degraded
+    title: 图像弱光+点云稀疏
+    description: 同时降低图像亮度并删除部分点云，模拟图像和雷达均受影响的复杂场景。
+    image:
+      type: low_light
+      brightness: 0.45
+      contrast: 0.9
+    lidar:
+      type: dropout
+      keep_ratio: 0.6

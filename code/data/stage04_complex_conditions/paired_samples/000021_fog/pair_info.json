@@ -1,0 +1,21 @@
+{
+  "pair_id": "000021_fog",
+  "condition_name": "fog",
+  "condition_title": "雾天",
+  "condition_description": "降低图像清晰度并叠加雾化效果，模拟能见度下降场景。",
+  "clean": {
+    "sample_id": "000021",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\clean\\000021.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\clean\\000021.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\clean\\000021.pkl"
+  },
+  "complex": {
+    "sample_id": "000021_fog",
+    "image": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\complex\\000021_fog.png",
+    "point_cloud": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\complex\\000021_fog.bin",
+    "info": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\complex\\000021_fog.pkl"
+  },
+  "comparison_preview": "code\\outputs\\stage04_complex_conditions\\previews\\000021_fog_clean_vs_complex.png",
+  "source_point_count": 125260,
+  "output_point_count": 125260
+}

@@ -1,0 +1,434 @@
+{
+  "existing_inputs_only": true,
+  "pairs": [
+    {
+      "pair_id": "000008_low_light",
+      "title": "弱光",
+      "input_type": "image",
+      "source_point_count": 17238,
+      "degraded_point_count": 17238,
+      "verification": {
+        "point_cloud_unchanged": true,
+        "image_changed": true
+      },
+      "render": {
+        "type": "byte_identical_copy_of_input_rgb",
+        "detection_boxes": false
+      },
+      "sources": {
+        "clean": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\clean\\000008.png",
+            "sha256": "5b988d2a04d51850610b38ce50a66fd4027f3f5e645e5f2198d0522f4cf9a640"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\clean\\000008.bin",
+            "sha256": "3b9de6cc966534900f6a1bdc93b21772e47a334eb2ef18082021956520d902d1"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\clean\\000008.pkl",
+            "sha256": "b187a5f9185789125e04618645ecfb7c5e9afb5d41ab11b06b9a0cf381f0c45a"
+          }
+        },
+        "complex": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\complex\\000008_low_light.png",
+            "sha256": "c01408d4d414216d3e8003f3483a0ce1621444801ed4418da51602e4e9bf2705"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\complex\\000008_low_light.bin",
+            "sha256": "3b9de6cc966534900f6a1bdc93b21772e47a334eb2ef18082021956520d902d1"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000008_low_light\\complex\\000008_low_light.pkl",
+            "sha256": "8a72fd9381adde817752eda38789c87b28208c69ca2ee46da6fe4c2d9668454c"
+          }
+        }
+      },
+      "pictures": {
+        "before": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000008_low_light\\before.png",
+          "sha256": "5b988d2a04d51850610b38ce50a66fd4027f3f5e645e5f2198d0522f4cf9a640"
+        },
+        "after": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000008_low_light\\after.png",
+          "sha256": "c01408d4d414216d3e8003f3483a0ce1621444801ed4418da51602e4e9bf2705"
+        }
+      }
+    },
+    {
+      "pair_id": "000021_fog",
+      "title": "雾天",
+      "input_type": "image",
+      "source_point_count": 125260,
+      "degraded_point_count": 125260,
+      "verification": {
+        "point_cloud_unchanged": true,
+        "image_changed": true
+      },
+      "render": {
+        "type": "byte_identical_copy_of_input_rgb",
+        "detection_boxes": false
+      },
+      "sources": {
+        "clean": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\clean\\000021.png",
+            "sha256": "b26d89b487b9708f88fd6a3762ac863b35703cf9337d336b0a6614e940dfb91e"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\clean\\000021.bin",
+            "sha256": "fa0c10ad38b2f156ae94cfa222d146181c6e8b272522d0fa3c00e292756c457d"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\clean\\000021.pkl",
+            "sha256": "17346560a07d3e84fb46db7c2d70ae17e0b67f66f39e974a9ba34e2db0869f56"
+          }
+        },
+        "complex": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\complex\\000021_fog.png",
+            "sha256": "94098e4400d8f50bc7f5b3a5e3b50a3bda590248866e430c1551320c8521bea2"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\complex\\000021_fog.bin",
+            "sha256": "fa0c10ad38b2f156ae94cfa222d146181c6e8b272522d0fa3c00e292756c457d"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000021_fog\\complex\\000021_fog.pkl",
+            "sha256": "794c94da0934d6028f922458a62e8058949d35fa107a85bb3b7c5caa8cdc3430"
+          }
+        }
+      },
+      "pictures": {
+        "before": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000021_fog\\before.png",
+          "sha256": "b26d89b487b9708f88fd6a3762ac863b35703cf9337d336b0a6614e940dfb91e"
+        },
+        "after": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000021_fog\\after.png",
+          "sha256": "94098e4400d8f50bc7f5b3a5e3b50a3bda590248866e430c1551320c8521bea2"
+        }
+      }
+    },
+    {
+      "pair_id": "000022_motion_blur",
+      "title": "运动模糊",
+      "input_type": "image",
+      "source_point_count": 123219,
+      "degraded_point_count": 123219,
+      "verification": {
+        "point_cloud_unchanged": true,
+        "image_changed": true
+      },
+      "render": {
+        "type": "byte_identical_copy_of_input_rgb",
+        "detection_boxes": false
+      },
+      "sources": {
+        "clean": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\clean\\000022.png",
+            "sha256": "b0aeb834e68edc1783f4dd1b620a0f6b7ae6b43ab33ec0b6358cdbd2fbe4c33b"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\clean\\000022.bin",
+            "sha256": "639b135bc83acd0a2240a79a0d29ff024e716940d2e316b98e6a6c6a6c31d131"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\clean\\000022.pkl",
+            "sha256": "240b6eac4859cd568fd0613abd0bd16bc61d6406f6ab8e3127df070af32952d8"
+          }
+        },
+        "complex": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\complex\\000022_motion_blur.png",
+            "sha256": "945018d3ee59eb0f51feebb8b961a3b3399e938d68b45412a145fbcdaed495ca"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\complex\\000022_motion_blur.bin",
+            "sha256": "639b135bc83acd0a2240a79a0d29ff024e716940d2e316b98e6a6c6a6c31d131"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000022_motion_blur\\complex\\000022_motion_blur.pkl",
+            "sha256": "bafed91541d246446df2fcb9c0a5d28149c2785d5ad4ec46c093853f0d7d8c46"
+          }
+        }
+      },
+      "pictures": {
+        "before": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000022_motion_blur\\before.png",
+          "sha256": "b0aeb834e68edc1783f4dd1b620a0f6b7ae6b43ab33ec0b6358cdbd2fbe4c33b"
+        },
+        "after": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000022_motion_blur\\after.png",
+          "sha256": "945018d3ee59eb0f51feebb8b961a3b3399e938d68b45412a145fbcdaed495ca"
+        }
+      }
+    },
+    {
+      "pair_id": "000023_image_noise",
+      "title": "图像噪声",
+      "input_type": "image",
+      "source_point_count": 120412,
+      "degraded_point_count": 120412,
+      "verification": {
+        "point_cloud_unchanged": true,
+        "image_changed": true
+      },
+      "render": {
+        "type": "byte_identical_copy_of_input_rgb",
+        "detection_boxes": false
+      },
+      "sources": {
+        "clean": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\clean\\000023.png",
+            "sha256": "c7cd94f8632af6681c6067bdbffc81a2e7fbd246a43cec583629833f6140e433"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\clean\\000023.bin",
+            "sha256": "4f813f3c381b675950e46641ed07fb5d9c3900693623f2895247e33403fd27b2"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\clean\\000023.pkl",
+            "sha256": "6035841e447bb25e7117fd6c94324926fd6b3dcfac49abb2d7e5309d23a08edf"
+          }
+        },
+        "complex": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\complex\\000023_image_noise.png",
+            "sha256": "17cea22c843990577223aa82b604bf21be21e8a799cf2f6b8ce4e8cb820607cc"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\complex\\000023_image_noise.bin",
+            "sha256": "4f813f3c381b675950e46641ed07fb5d9c3900693623f2895247e33403fd27b2"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000023_image_noise\\complex\\000023_image_noise.pkl",
+            "sha256": "19b57246bde48e88e76dd9cf8970bd741119b7b78c17d67c2a76875ab713f2df"
+          }
+        }
+      },
+      "pictures": {
+        "before": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000023_image_noise\\before.png",
+          "sha256": "c7cd94f8632af6681c6067bdbffc81a2e7fbd246a43cec583629833f6140e433"
+        },
+        "after": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000023_image_noise\\after.png",
+          "sha256": "17cea22c843990577223aa82b604bf21be21e8a799cf2f6b8ce4e8cb820607cc"
+        }
+      }
+    },
+    {
+      "pair_id": "000024_lidar_sparse",
+      "title": "点云稀疏",
+      "input_type": "point_cloud",
+      "source_point_count": 126730,
+      "degraded_point_count": 57147,
+      "verification": {
+        "exact_subset": true,
+        "retained_ratio": 0.4509350587863963,
+        "points_in_camera_view": [
+          20235,
+          9135
+        ]
+      },
+      "render": {
+        "type": "point_cloud_camera_projection_on_black",
+        "image_size_px": [
+          1241,
+          376
+        ],
+        "lidar2img": [
+          [
+            607.484375,
+            -718.5374145507812,
+            -10.187583923339844,
+            -186.0350341796875
+          ],
+          [
+            180.0274658203125,
+            5.8992228507995605,
+            -720.148681640625,
+            -92.96631622314453
+          ],
+          [
+            0.9999738931655884,
+            0.0004859483742620796,
+            -0.007206933572888374,
+            -0.2921968698501587
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "point_footprint_px": [
+          2,
+          2
+        ],
+        "distance_color_stops_m": [
+          0,
+          10,
+          25,
+          45,
+          70.4
+        ],
+        "same_parameters_before_after": true,
+        "rgb_background": false,
+        "detection_boxes": false
+      },
+      "sources": {
+        "clean": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\clean\\000024.png",
+            "sha256": "3b9bdbe507897162668326945068493dc4f8d2b5d34296d5071e047a3ecde52f"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\clean\\000024.bin",
+            "sha256": "5a1f121c9bc94b92454257a1cdb3eecd08e1e5eec0fed8b7c7579a053558c7d7"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\clean\\000024.pkl",
+            "sha256": "4b7e61e0a51610ec4be63a683a820bea06919e466682c889cbd99881630a5b6e"
+          }
+        },
+        "complex": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\complex\\000024_lidar_sparse.png",
+            "sha256": "d98dadfe350a8b424e947f5fff652d603cf82d865929eadfdc7a4acd5e975995"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\complex\\000024_lidar_sparse.bin",
+            "sha256": "692f9022d414b22f56f2c2802a79655d1aa9fcf534588bde0ca4a003bb8771d0"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000024_lidar_sparse\\complex\\000024_lidar_sparse.pkl",
+            "sha256": "46d78982b6716598d44c4ba69e8ece21eb652a95027d07c372a7df286360bb59"
+          }
+        }
+      },
+      "pictures": {
+        "before": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000024_lidar_sparse\\before.png",
+          "sha256": "983536caa8c5a5501427677515fbfb60efbc5e53b86a64d74536c8cc342df638"
+        },
+        "after": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000024_lidar_sparse\\after.png",
+          "sha256": "8361edeb7fbd75cc25bc731a80b9d53a824f03b552e5295e2773f79cfbadfc8d"
+        }
+      }
+    },
+    {
+      "pair_id": "000025_lidar_jitter",
+      "title": "点云扰动",
+      "input_type": "point_cloud",
+      "source_point_count": 115780,
+      "degraded_point_count": 115780,
+      "verification": {
+        "reflectance_unchanged": true,
+        "xyz_delta_std_m": [
+          0.07994049787521362,
+          0.07988939434289932,
+          0.08025467395782471
+        ],
+        "mean_displacement_m": 0.1277480572462082,
+        "points_in_camera_view": [
+          17531,
+          17543
+        ]
+      },
+      "render": {
+        "type": "point_cloud_camera_projection_on_black",
+        "image_size_px": [
+          1242,
+          375
+        ],
+        "lidar2img": [
+          [
+            609.6954345703125,
+            -721.421630859375,
+            -1.251258134841919,
+            -167.89910888671875
+          ],
+          [
+            180.3842010498047,
+            7.64479923248291,
+            -719.6514892578125,
+            -101.23307037353516
+          ],
+          [
+            0.999945342540741,
+            0.00012436549877747893,
+            0.010451302863657475,
+            -0.2721328139305115
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "point_footprint_px": [
+          2,
+          2
+        ],
+        "distance_color_stops_m": [
+          0,
+          10,
+          25,
+          45,
+          70.4
+        ],
+        "same_parameters_before_after": true,
+        "rgb_background": false,
+        "detection_boxes": false
+      },
+      "sources": {
+        "clean": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\clean\\000025.png",
+            "sha256": "a9b483aa030b2ed7279b020d3b3d4eb5bc20d1b67c9425299dda1d8052d3db67"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\clean\\000025.bin",
+            "sha256": "285c582c17e32189ab224e68f7a86628c0063e19b14c0a255d0893dc9c28812c"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\clean\\000025.pkl",
+            "sha256": "45df428ca68ceb201f8d7313a976f47718faf222fff2a875910b376ac1ce1445"
+          }
+        },
+        "complex": {
+          "image": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\complex\\000025_lidar_jitter.png",
+            "sha256": "cdbdf972cf34ffab8becede78c33ab466753182bb87b60560afb83971c0895e4"
+          },
+          "point_cloud": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\complex\\000025_lidar_jitter.bin",
+            "sha256": "e0d670d6ad3f28870fafa8fe5e7c87257187beeba243018c3aae00aaa0083f44"
+          },
+          "info": {
+            "path": "code\\data\\stage04_complex_conditions\\paired_samples\\000025_lidar_jitter\\complex\\000025_lidar_jitter.pkl",
+            "sha256": "94217fa6ae2706845d722a20af92d1cf22f8564d2ec7a9137502e8a50a41e3cf"
+          }
+        }
+      },
+      "pictures": {
+        "before": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000025_lidar_jitter\\before.png",
+          "sha256": "40d4821aefc46cd65c70b24d22f7697f41be61827695b74948b6f896a08608c7"
+        },
+        "after": {
+          "path": "code\\outputs\\stage04_complex_conditions\\input_degradation_comparisons\\000025_lidar_jitter\\after.png",
+          "sha256": "aed5f9066f3f01588098a5c0f2bfd88c0ddb32d6fd275221742871ab47ab0d20"
+        }
+      }
+    }
+  ]
+}
